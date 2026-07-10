@@ -1,6 +1,5 @@
 import { AiOutlineHome, AiOutlineSafetyCertificate } from 'react-icons/ai';
 import { RiCodeSSlashLine } from 'react-icons/ri';
-import { BiConversation } from 'react-icons/bi';
 import { TfiControlForward } from 'react-icons/tfi';
 import { RxDashboard } from 'react-icons/rx';
 

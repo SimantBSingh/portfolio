@@ -2,17 +2,12 @@ import react_logo from "../../Image/logo_folder/resct_logo.png";
 import node_logo from "../../Image/logo_folder/node-js.png";
 import html_logo from "../../Image/logo_folder/html_logo.png";
 import css_logo from "../../Image/logo_folder/css_logo.png";
-import netlify_logo from "../../Image/logo_folder/netlify_logo.png";
 import mysql_logo from "../../Image/logo_folder/mysql_logo.png";
-import bootstrap_logo from "../../Image/logo_folder/bootstrap_logo.png";
 import java_logo from "../../Image/logo_folder/java_logo.png";
 import javascript_logo from "../../Image/logo_folder/js_logo.png";
 import github_logo from "../../Image/logo_folder/github_logo.png";
 import mongodb_logo from "../../Image/logo_folder/mongodb_logo.png";
-import git_vcs_logo from "../../Image/logo_folder/git_vcs_logo.png";
-import material_logo from "../../Image/logo_folder/material_logo.png";
 import express_logo from "../../Image/logo_folder/express_logo.png";
-import vercel from "../../Image/logo_folder/vercel.svg";
 import typescript from "../../Image/logo_folder/typescript.png";
 import tailwindcss from "../../Image/logo_folder/tailwindcss.png";
 import redux from "../../Image/logo_folder/redux.png";
@@ -119,6 +114,21 @@ const my_skills_data = [
     id: 18,
     skill_name: "Docker",
     img_link: docker,
+  },
+  {
+    id: 19,
+    skill_name: "TypeScript",
+    img_link: typescript,
+  },
+  {
+    id: 20,
+    skill_name: "Tailwind CSS",
+    img_link: tailwindcss,
+  },
+  {
+    id: 21,
+    skill_name: "Redux",
+    img_link: redux,
   },
 ];
 export default my_skills_data;

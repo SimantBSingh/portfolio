@@ -8,23 +8,28 @@ function Education() {
       index: 1,
       education_logo_link: college_logo,
       college_name: "University of New Orleans",
-      college_degree_name: "Bachelor of Science in Computer Science with a Minor in Mathematics",
-      education_spam: "2022-2026",
+      college_degree_name: "Bachelor of Science in Computer Science, Minor in Mathematics",
+      education_spam: "Aug 2022 - May 2026",
       education_info: [
         {
           index: 1,
           educ_info:
-            "Below are the Computer Science and Mathematics classes I have attended.",
+            "Graduated Summa Cum Laude on May 15, 2026 with a 3.932 cumulative GPA.",
         },
         {
           index: 2,
           educ_info:
-            "- Object Oriented Programming, Data Structures and Algorithms, Operating Systems, Theory of Computation, Machine Structure and Assembly Language, Data Models and Database Systems, Computer Design and Organization, Cloud Computing, Computer Networks",
+            "- Computer Science: Data Structures, Algorithms, Operating Systems, Cloud Computing, Computer Networks, Database Systems, Natural Language Processing, Machine Learning II, Advanced Web Applications, Computer Graphics, Game Development, Programming Languages, Theory of Computation",
         },
         {
           index: 3,
           educ_info:
-            "- Calculus III, Intro to Linear Algebra, Elementary Statistical Methods, Introduction to Discrete Structures",
+            "- Mathematics: Calculus I-III, Differential Equations, Linear Algebra, Abstract Algebra, Discrete Structures, Elementary Statistical Methods",
+        },
+        {
+          index: 4,
+          educ_info:
+            "- Academic recognition: President's List across completed semesters and Good Standing through graduation.",
         },
         
     
@@ -70,6 +75,22 @@ function Education() {
                           </div>
                         );
                       })}
+                      <div className="educ_btn_group">
+                        <a
+                          href={`${process.env.PUBLIC_URL}/Simant_Singh_resume.pdf`}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button>View Resume</button>
+                        </a>
+                        <a
+                          href={`${process.env.PUBLIC_URL}/2626142_Transcript.pdf`}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <button>View Transcript</button>
+                        </a>
+                      </div>
                       {/* <div className="educ_btn">
                         <a href={data.btn_link}>
                           <button>{data.btn_name}</button>

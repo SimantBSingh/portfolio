@@ -3,7 +3,6 @@ import { HashLink } from 'react-router-hash-link';
 import './Navbar.css';
 import 'font-awesome/css/font-awesome.min.css';
 import my_navbar_data from './assets/NavData';
-import nav_logo from '../Image/college_logo.png';
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
@@ -28,11 +27,10 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-container">
-        {/* <div className="logo">
-          <HashLink to="/#home_page" className="nav__logo">
-            <img src={nav_logo} alt="logo" />
-          </HashLink>
-        </div> */}
+        <HashLink to="/portfolio" className="nav_brand">
+          <span>SS</span>
+          <strong>Simant Singh</strong>
+        </HashLink>
         <div className={isActive ? 'active_links  ' : 'links'}>
           <div className="MenuItems ">
             {my_navbar_data.map((data, index) => {

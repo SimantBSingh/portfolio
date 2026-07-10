@@ -3,18 +3,18 @@ import SData from './assets/ApplicationData';
 import './Skills.css';
 function Skills() {
   const my_skill_description = [
-    // {
-    //   index: 1,
-    //   info: '⚡ Building responsive website front end using ReactJS',
-    // },
-    // {
-    //   index: 2,
-    //   info: '⚡Developing mobile applications using React JS , Node JS and Material UI ',
-    // },
-    // {
-    //   index: 3,
-    //   info: '⚡ Creating application backend in Node JS & Express JS',
-    // },
+    {
+      index: 1,
+      info: 'Full-stack systems with React, TypeScript, Node.js, .NET, Flask, and FastAPI',
+    },
+    {
+      index: 2,
+      info: 'AI and robotics work with Python, C++, PyTorch, TensorFlow, OpenCV, and ROS',
+    },
+    {
+      index: 3,
+      info: 'Cloud and data platforms across AWS, Azure, Google Cloud, Docker, Terraform, SQL, MongoDB, and Redis',
+    },
   ];
   return (
     <>

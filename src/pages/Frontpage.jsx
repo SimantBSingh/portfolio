@@ -10,6 +10,7 @@ function Frontpage() {
       <div className="profile-container" id="home_page">
         <div className="profile-parent">
           <div className="profile-details">
+            <div className="hero_badge">Software engineer | AI systems | Robotics</div>
             <div className="profile-details-name">
               <p className="primary-text">
                 Hello, I'M
@@ -17,48 +18,67 @@ function Frontpage() {
               </p>
             </div>
             <div className="profile-details-role">
-              <span className="primary-text">
-                <h1 style={{ display: 'flex', gap: '6px', color: '#fff' }}>
-                  I am into
-                  <span style={{ color: '#5198ff' }} className="type_effect">
-                    <TypeWriterEffect
-                      multiTextLoop
-                      cursorColor="#f3f4f6"
-                      multiText={[
-                        'Software Engineering',
-                        'Fullstack Development',
-                        'Embedded Systems',
-                        'Software Development ',
-                        'Web Development ',
-                      ]}
-                      multiTextDelay={1000}
-                      typeSpeed={100}
-                    />
-                  </span>
-                </h1>
-                {/* <span className="profile-role-tagline">
-                  I make websites that are easy to use, meet the client's needs,
-                  and work well even as they grow. I pay close attention to
-                  every little thing to make sure they work fast and are
-                  reliable.
-                </span> */}
-              </span>
+              <div className="primary-text hero_type_line">
+                <span>I build</span>
+                <span className="type_effect">
+                  <TypeWriterEffect
+                    multiTextLoop
+                    cursorColor="#f97316"
+                    multiText={[
+                      'Software Engineering',
+                      'Fullstack Development',
+                      'AI Systems',
+                      'Cloud Engineering',
+                      'Robotics Research',
+                    ]}
+                    multiTextDelay={1000}
+                    typeSpeed={100}
+                  />
+                </span>
+              </div>
+              <p className="profile-role-tagline">
+                Computer Science graduate from the University of New Orleans building full-stack, cloud, and AI-enabled tools across internships, robotics research, and startup work.
+              </p>
               <div className="colz">
                 <SocialMediaLinks />
               </div>
             </div>
 
             <div className="profile-options">
-              {/* <a href="#contact_page">
-                <button className="btn primary-btn">Hire Me</button>
-              </a> */}
-              <a href="./Simant_Singh_resume.pdf" download>
-                <button className="btn highlighted-btn">Get Resume</button>
+              <a
+                href={`${process.env.PUBLIC_URL}/Simant_Singh_resume.pdf`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn highlighted-btn">View Resume</button>
               </a>
+              <a href="/portfolio/education_and_certifications">
+                <button className="btn primary-btn">View Education</button>
+              </a>
+            </div>
+            <div className="hero_stats">
+              <div>
+                <strong>3.932</strong>
+                <span>GPA</span>
+              </div>
+              <div>
+                <strong>$18K</strong>
+                <span>Seed funding</span>
+              </div>
+              <div>
+                <strong>IEEE</strong>
+                <span>RO-MAN publication</span>
+              </div>
             </div>
           </div>
           <div className="profile-picture">
-            <a href="/portfolio/#about_me" className="profile-picture-background"></a>
+            <a
+              href="/portfolio/#about_me"
+              className="profile-picture-background"
+              aria-label="Go to about section"
+            >
+              <span className="visually-hidden">Go to about section</span>
+            </a>
           </div>
         </div>
         <SvgBackground />

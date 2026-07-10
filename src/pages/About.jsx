@@ -14,7 +14,7 @@ function About() {
             About <span>Me</span>
           </h2>
           <p>
-          I'm Simant, a Computer Science major, Software Engineer Intern and a Research Assistant. With a deep curiosity for technology and a penchant for problem-solving, I'm on a journey to bridge the world of research and software engineering. My passion lies in crafting innovative solutions, whether it's delving into complex algorithms or creating dynamic software applications. My aim is to leverage my unique blend of skills to make a meaningful impact in the realm of technology and software development.
+            I'm Simant, a Computer Science graduate from the University of New Orleans with a Mathematics minor, Summa Cum Laude honors, and a 3.932 GPA. I build full-stack, cloud, and AI-enabled systems across software engineering internships, robotics research, and startup work. My experience spans React, TypeScript, Python, C++, .NET, FastAPI, distributed data systems, and production testing workflows.
           </p>
           <div className="personal_info">
             {personal_info_data.map((data, index) => {

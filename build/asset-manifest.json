@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4b171c39.css",
-    "main.js": "/portfolio/static/js/main.7249093e.js",
+    "main.css": "/portfolio/static/css/main.f0fcb13f.css",
+    "main.js": "/portfolio/static/js/main.a651063b.js",
     "static/media/landing_img.png": "/portfolio/static/media/landing_img.0d3f65137c05f4df5a66.png",
     "static/media/proj_img.png": "/portfolio/static/media/proj_img.4a822ec78b9fbf22342c.png",
-    "static/media/metacrypto_img.png": "/portfolio/static/media/metacrypto_img.b556486c78c64dc3a7fc.png",
     "static/media/clinic_img.jpg": "/portfolio/static/media/clinic_img.e34b8c2924e3edc90054.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/linux.png": "/portfolio/static/media/linux.ad6e4b06906b0633e222.png",
@@ -18,26 +17,18 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/about_me_img.png": "/portfolio/static/media/about_me_img.5a41b5e8a24955786f31.png",
     "static/media/vue.png": "/portfolio/static/media/vue.52b61ccb42e6fc9fd59a.png",
-    "static/media/todo_img.jpg": "/portfolio/static/media/todo_img.bb51c676b43311e86d37.jpg",
     "static/media/foodscan.png": "/portfolio/static/media/foodscan.9cb2562181cda63a8bfa.png",
     "static/media/college_logo.png": "/portfolio/static/media/college_logo.03ce2448034e61960e72.png",
-    "static/media/weather_img.jpg": "/portfolio/static/media/weather_img.aa4b17b6fa1d157ed5cf.jpg",
-    "static/media/calci_img.jpg": "/portfolio/static/media/calci_img.f23917665235c5c5d1ae.jpg",
-    "static/media/profile_img.jpg": "/portfolio/static/media/profile_img.de3f9e839a9b9ba5b46c.jpg",
+    "static/media/profile_img.jpg": "/portfolio/static/media/profile_img.db8bb4ee4b6887aee92c.jpg",
     "static/media/c++.jpg": "/portfolio/static/media/c++.8eb73fdeb36cef337545.jpg",
     "static/media/C.png": "/portfolio/static/media/C.bbbbbabc8c191bfb99bf.png",
-    "static/media/banking_img.jpg": "/portfolio/static/media/banking_img.67b0b0efb5969e43091a.jpg",
-    "static/media/gc_img.png": "/portfolio/static/media/gc_img.5d35c1c8f4f182a87e18.png",
-    "static/media/tcs_img.png": "/portfolio/static/media/tcs_img.75d80de98e3fde829cce.png",
-    "static/media/quotes_img.jpg": "/portfolio/static/media/quotes_img.92137a96e08775fbf297.jpg",
     "static/media/resct_logo.png": "/portfolio/static/media/resct_logo.0c66c79ce81db9c5fbb0.png",
     "index.html": "/portfolio/index.html",
-    "static/media/vercel.svg": "/portfolio/static/media/vercel.f69ae68ed6f947fe0dc8d018023340e6.svg",
-    "main.4b171c39.css.map": "/portfolio/static/css/main.4b171c39.css.map",
-    "main.7249093e.js.map": "/portfolio/static/js/main.7249093e.js.map"
+    "main.f0fcb13f.css.map": "/portfolio/static/css/main.f0fcb13f.css.map",
+    "main.a651063b.js.map": "/portfolio/static/js/main.a651063b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b171c39.css",
-    "static/js/main.7249093e.js"
+    "static/css/main.f0fcb13f.css",
+    "static/js/main.a651063b.js"
   ]
 }
